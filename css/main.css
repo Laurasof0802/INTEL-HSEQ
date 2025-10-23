@@ -1596,7 +1596,7 @@ section,
   display: inline-flex;
   align-items: center;
   justify-content: center;
-  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+  box-shadow: 0 4px 15px rgba(186, 59, 59, 0.1);
 }
 
 .testimonials .swiper-button-prev:hover,
@@ -3251,8 +3251,8 @@ footer.footer {
 }
 
 .about .features-grid {
-  margin-top: 5rem;
-  margin-bottom: 3rem;
+  margin-top: 2rem;
+  margin-bottom: 1rem;
 }
 
 .about .feature-card {
@@ -3281,7 +3281,7 @@ footer.footer {
   display: flex;
   align-items: center;
   justify-content: center;
-  margin: 0 auto 1.5rem;
+  margin: 0 auto 1rem;
   font-size: 2rem;
   color: var(--contrast-color);
   transition: all 0.3s ease;
@@ -3301,10 +3301,21 @@ footer.footer {
   color: color-mix(in srgb, var(--default-color), transparent 30%);
 }
 .feature-image {
-  width: 65%; /* Ajusta el ancho al 100% del contenedor */
+  width: 50%; /* Ajusta el ancho al 100% del contenedor */
   height: auto; /* Mantiene la proporción de la imagen */
   object-fit: contain; /* Evita que la imagen se corte */
   border-radius: 75px; /* Opcional: bordes redondeados */
+
+  .features-grid {
+  margin-bottom: 0;
+  padding-bottom: 0;
+}
+
+.alt-services .features-grid {
+  margin-top: 0;
+  padding-top: 0;
+}
+
 }
 .stats {
   padding: 60px 0;
